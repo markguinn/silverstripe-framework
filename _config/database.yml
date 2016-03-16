@@ -20,3 +20,8 @@ Injector:
   PDOConnector:
     class: 'PDOConnector'
     type: prototype
+  # These are added from the silverstripe-327 module so that module doesn't need to be installed. MG 2016-03-16
+  Int:
+    class: DBInt
+  Float:
+    class: DBFloat
